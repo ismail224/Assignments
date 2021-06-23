@@ -20,7 +20,8 @@ float: right;
 margin: 0px;
 border: 2px solid red;
 background-color: lightgray;
-
+width: 250px;
+text-align: center;
 }
 #B{
 position: relative;
@@ -28,7 +29,8 @@ float: right;
 margin: 0px;
 border: 2px solid red;
 background-color: lightpink;
-
+width: 250px;
+text-align: center;
 }
 
 #S{
@@ -37,7 +39,8 @@ float: right;
 margin: 0px;
 border: 2px solid red;
 background-color: lightgoldenrodyellow;
-
+width: 250px;
+text-align: center;
 }
 
 p{
