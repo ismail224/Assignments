@@ -1,4 +1,85 @@
-p{
-	font-size: 50px;
-	color:red;
+* {
+  box-sizing: border-box;
 }
+header{
+	margin: 25px;
+	text-align: center;
+	font-size: 35px;
+	font-family: serif;
+	color:black;
+}
+div{
+	margin: 10px;
+	position: relative;
+	background-color: lightblue;
+}
+
+#C{
+position: relative;
+float: right;
+margin: 0px;
+border: 2px solid red;
+background-color: lightgray;
+
+}
+#B{
+position: relative;
+float: right;
+margin: 0px;
+border: 2px solid red;
+background-color: lightpink;
+
+}
+
+#S{
+position: relative;
+float: right;
+margin: 0px;
+border: 2px solid red;
+background-color: lightgoldenrodyellow;
+
+}
+
+p{
+	margin-top: 50px;
+	padding: 15px;
+	font-family: Helvetica;
+}
+
+.row{
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		border: 2px solid black;
+	}
+	.col-lg-4{
+		width: 30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		border: 2px solid black;
+	}
+	.col-md-6{
+		width: 47%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		float: left;
+		border: 2px solid black;
+	}
+	.col-sm-12{
+		width: 97%;
+	}
+
+}
+
+
+
